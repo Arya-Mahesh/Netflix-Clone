@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 npm create vite@latest netflix
 react
 javascript
 npm install
 npm run dev
 ---------------------------------------
-delete =====> vite.svg,app.css,clear app and do rafce
+delete - vite.svg,app.css,clear app and do rafce
 save logos and photos in assets.
 netflixicon.ico -> public
 index.html =>  <link rel="icon" type="image/svg+xml" href="netflixicon.ico" />
@@ -85,6 +85,3 @@ API = 182346e9585b77ea13cf302b6c2f7fe3
 ---------------------------------
 Add Firebase
 
-=======
-# Netflix-Clone
->>>>>>> 5b88c51ce0fba8a5c017d0c244d09656899ca116
