@@ -1,4 +1,5 @@
 
+
 npm create vite@latest netflix
 react
 javascript
@@ -84,4 +85,8 @@ API = 182346e9585b77ea13cf302b6c2f7fe3
 
 ---------------------------------
 Add Firebase
+
+=======
+# Netflix-Clone
+A React-based cryptocurrency marketplace that provides real-time information on cryptocurrencies. The platform is designed to be visually engaging and user-friendly, allowing users to explore detailed data about various cryptocurrencies.
 
