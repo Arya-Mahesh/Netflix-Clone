@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Arya-Mahesh.github.io/Netflix-Clone",
+  "homepage": "https://arya-mahesh.github.io/Netflix-Clone",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
