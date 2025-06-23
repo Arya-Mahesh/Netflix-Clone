@@ -1,5 +1,5 @@
 import './Login.css'
-import logo from '../../assets/netflix_logo-removebg-preview.png'
+import logo from '../../assets/streamflix.png'
 import { useState } from 'react'
 import { login,signup } from '../../firebase'
 
