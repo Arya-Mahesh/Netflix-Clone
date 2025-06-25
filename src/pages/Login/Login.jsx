@@ -1,5 +1,5 @@
 import './Login.css'
-import logo from '../../assets/netflix_logo-removebg-preview.png'
+import logo from '../../assets/streamflix.png'
 import { useState } from 'react'
 import { login,signup } from '../../firebase'
 
@@ -41,7 +41,7 @@ const Login = () => {
           </div>
         </form>
         <div className="form-switch">
-          {signState==='Sign In'?<p> New to Netflix?
+          {signState==='Sign In'?<p> New to Streamflix?
              <span onClick={()=>{setSignState("Sign Up")}}>Sign Up Now</span></p>: <p>Already have account? 
               <span onClick={()=>{setSignState("Sign In")}}>Sign In Now</span></p>}
          

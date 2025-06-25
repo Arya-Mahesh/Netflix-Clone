@@ -1,5 +1,5 @@
 import './Navbar.css'
-import logo from '../../assets/netflix_logo-removebg-preview.png'
+import logo from '../../assets/streamflix.png'
 import search from '../../assets/search.png'
 import bell from '../../assets/bell.png'
 import profile from '../../assets/Netflix-avatar.ico'
@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div ref={navRef} className='navbar'>
      <div className="navbar-left">
-        <img src={logo} alt=''></img>
+        <img className="logo" src={logo} alt=''></img>
         <ul className={`nav-items ${dropdownOpen ? 'open' : ''}`}>
           <li>Home</li>
           <li>TV Show</li>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <li>My List</li>
               <li>Browse by Languages</li>
              
-          <p onClick={()=>{logout()}}>Sign Out of Netflix</p>
+          <p  onClick={()=>{logout()}}>Sign Out</p>
           </ul>
         </div>
         )}

@@ -26,6 +26,11 @@
     width: 90px;
 }
 
+.navbar-left .logo{
+    width: 110px;
+    height: 40px;
+}
+
 .navbar-left ul {
     display: flex;
     list-style: none;
@@ -105,9 +110,10 @@
 }
 
 .dropdown p {
-    
+    font-weight: bold;
     margin-top: 16px;
-    margin-left: 15px;
+    margin-left: 40px;
+    align-items: center;
     color: #e5e5e5;
     cursor: pointer;
 }
