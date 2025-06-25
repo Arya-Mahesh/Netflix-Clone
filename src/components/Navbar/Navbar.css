@@ -5,7 +5,7 @@
     justify-content: space-between;
     position: fixed;
     top: 0;
-    font-size: 17px;
+    font-size: 16px;
     color: #e5e5e5;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 10%, transparent);
     z-index: 10;
@@ -28,7 +28,7 @@
 
 .navbar-left .logo{
     width: 150px;
-    height: 50px;
+    height: 40px;
 }
 
 .navbar-left ul {
